@@ -4,14 +4,14 @@ namespace WebCommerce.Discount.Services
 {
     public interface IDiscountService
     {
-        Task<List<ResultDiscountCouponDto>> GetAllCouponsAsync();
+        Task<List<ResultDiscountCouponDto>> GetAllDiscountCouponsAsync();
 
-        Task<ResultDiscountCouponDto> GetCouponByIdAsync(int id);
+        Task<GetByIdDiscountCouponDto> GetDiscountCouponByIdAsync(int id);
 
-        Task CreateCouponAsync(CreateDiscountCouponDto createDiscountCouponDto);
+        Task CreateDiscountCouponAsync(CreateDiscountCouponDto createDiscountCouponDto);
 
-        Task UpdateCouponAsync(UpdateDiscountCouponDto updateDiscountCouponDto);
+        Task UpdateDiscountCouponAsync(UpdateDiscountCouponDto updateDiscountCouponDto);
 
-        Task DeleteCouponAsync(int id);
+        Task DeleteDiscountCouponAsync(int id);
     }
 }
