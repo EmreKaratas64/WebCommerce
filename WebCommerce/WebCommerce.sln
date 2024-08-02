@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{19DD36B5-0FD1-4B16-8948-4E883D799346}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{ECDBCF58-06EA-40F6-AC35-2F0A63C64EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCommerce.Catalog", "Services\Catalog\WebCommerce.Catalog\WebCommerce.Catalog.csproj", "{B6ED9323-9E91-4D09-908B-D86DCC8952AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{4A398D56-9ED2-4678-A72A-AC5F4F8C86B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCommerce.Discount", "Services\Discount\WebCommerce.Discount\WebCommerce.Discount.csproj", "{905947C0-36DA-49E4-8DD5-806ED68AF21C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6ED9323-9E91-4D09-908B-D86DCC8952AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6ED9323-9E91-4D09-908B-D86DCC8952AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6ED9323-9E91-4D09-908B-D86DCC8952AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6ED9323-9E91-4D09-908B-D86DCC8952AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905947C0-36DA-49E4-8DD5-806ED68AF21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905947C0-36DA-49E4-8DD5-806ED68AF21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905947C0-36DA-49E4-8DD5-806ED68AF21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905947C0-36DA-49E4-8DD5-806ED68AF21C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECDBCF58-06EA-40F6-AC35-2F0A63C64EA4} = {19DD36B5-0FD1-4B16-8948-4E883D799346}
+		{B6ED9323-9E91-4D09-908B-D86DCC8952AB} = {ECDBCF58-06EA-40F6-AC35-2F0A63C64EA4}
+		{4A398D56-9ED2-4678-A72A-AC5F4F8C86B2} = {19DD36B5-0FD1-4B16-8948-4E883D799346}
+		{905947C0-36DA-49E4-8DD5-806ED68AF21C} = {4A398D56-9ED2-4678-A72A-AC5F4F8C86B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852FEE90-854C-4ED9-BA10-A359C19FA758}
+	EndGlobalSection
+EndGlobal

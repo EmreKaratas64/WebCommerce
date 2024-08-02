@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6REXWvtpv5ukl3CoNmI5XitqlxFIVfUJsiNw7TjYVGg=",
+  "Source": "WebCommerce.Catalog",
+  "BasePath": "_content/WebCommerce.Catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
