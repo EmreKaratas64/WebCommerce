@@ -14,7 +14,7 @@ namespace WebCommerce.Order.Application.Features.CQRS.Handlers.AddressHandlers
             _repository = repository;
         }
 
-        public async Task<GetAddressByIdQueryResult> Handler(GetAddressByIdQuery getAddressByIdQuery)
+        public async Task<GetAddressByIdQueryResult> Handle(GetAddressByIdQuery getAddressByIdQuery)
         {
             var value = await _repository.GetByIdAsync(getAddressByIdQuery.Id);
             return new GetAddressByIdQueryResult

@@ -13,7 +13,7 @@ namespace WebCommerce.Order.Application.Features.CQRS.Handlers.OrderDetailHandle
             _repository = repository;
         }
 
-        public async Task Handler(CreateOrderDetailCommand command)
+        public async Task Handle(CreateOrderDetailCommand command)
         {
             await _repository.CreateAsync(new OrderDetail
             {
