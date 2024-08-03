@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "WebCommerce.Order.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WebCommerce.Order.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebCommerce.Order.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WebCommerce.Order.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WebCommerce.Order.Domain/WebCommerce.Order.Domain.csproj",
+      "msbuildProject": "../WebCommerce.Order.Domain/WebCommerce.Order.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "WebCommerce.Order.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\EMRE\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\C#-Asp_Projeler\\WebCommerce\\WebCommerce\\Services\\Order\\Core\\WebCommerce.Order.Domain\\WebCommerce.Order.Domain.csproj": {
+              "projectPath": "D:\\C#-Asp_Projeler\\WebCommerce\\WebCommerce\\Services\\Order\\Core\\WebCommerce.Order.Domain\\WebCommerce.Order.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
