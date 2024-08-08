@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\Core\WebCommerce.Order.Application\WebCommerce.Order.Application.csproj" />
+    <ProjectReference Include="..\..\Core\WebCommerce.Order.Domain\WebCommerce.Order.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WebCommerce.Order.Persistance\WebCommerce.Order.Persistance.csproj" />
   </ItemGroup>
 
 </Project>
